@@ -4,11 +4,74 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+  <body class="min-h-screen bg-[#e4e9f7]">
+    <nav class="fixed top-0 left-0 w-full bg-[#242526] h-[70px] z-[100]">
+      <div
+        class="nav-bar flex items-center justify-between relative h-full w-full max-w-screen-xl bg-[#242526] my-0 mx-auto py-0 px-8"
+      >
+        <span class="logo"
+          ><a class="text-[25px] no-underline font-medium text-[#fff]" href="#"
+            >JPJS</a
+          ></span
+        >
+
+        <div class="menu">
+          <ul class="nav-links flex items-center">
+            <li class="list-none my-0 mx-1.5">
+              <a
+                class="relative no-underline text-[17px] font-medium text-[#fff] p-2.5"
+                href="#"
+                >Projects</a
+              >
+            </li>
+            <li class="list-none my-0 mx-1.5">
+              <a
+                class="relative no-underline text-[17px] font-medium text-[#fff] p-2.5"
+                href="#"
+                >Services</a
+              >
+            </li>
+            <li class="list-none my-0 mx-1.5">
+              <a
+                class="relative no-underline text-[17px] font-medium text-[#fff] p-2.5"
+                href="#"
+                >About Us</a
+              >
+            </li>
+            <li class="list-none my-0 mx-1.5">
+              <a
+                class="relative no-underline text-[17px] font-medium text-[#fff] p-2.5"
+                href="#"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="cartShop-search flex items-center">
+          <div
+            class="cartShop h-[40px] w-[40px] flex items-center justify-center my-0 mx-1.5"
+          >
+            <i
+              class="bx bx-cart absolute text-[#fff] text-[22px] cursor-pointer"
+            ></i>
+          </div>
+          <div
+            class="search h-[40px] w-[40px] flex items-center justify-center my-0 mx-1.5"
+          >
+            <i
+              class="bx bx-search absolute text-[#fff] text-[22px] cursor-pointer"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
